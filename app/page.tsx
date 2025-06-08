@@ -66,7 +66,7 @@ export default function Portfolio() {
         <section className="container space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
           <div className="flex max-w-[980px] flex-col items-start gap-2">
             <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl lg:text-5xl lg:leading-[1.1] text-black">
-              Hi, I'm <span className="text-yellow-500">Saowaluk J.</span>
+              Hi, I'm <span className="text-yellow-500">Eve Jirapornsirikul</span>
             </h1>
             <h2 className="text-xl text-gray-700 md:text-2xl">Senior Software Engineer & Team Leader</h2>
             <p className="max-w-[750px] text-lg text-gray-600 sm:text-xl">
