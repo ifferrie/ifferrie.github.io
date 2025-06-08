@@ -228,7 +228,7 @@ export default function Portfolio() {
                     className="bg-yellow-400 hover:bg-yellow-500 text-black border-2 border-black"
                     asChild
                   >
-                    <Link href="/tech_salary_demo.mp4" target="_blank">
+                    <Link href="/tech_salary_demo.mov" target="_blank">
                       <Globe className="h-4 w-4 mr-2" />
                       Live Demo
                     </Link>
