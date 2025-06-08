@@ -25,7 +25,7 @@ export default function Portfolio() {
           <div className="mr-4 hidden md:flex">
             <Link className="mr-6 flex items-center space-x-2" href="/">
               <Code className="h-6 w-6 text-yellow-400" />
-              <span className="hidden font-bold sm:inline-block text-black">Saowaluk J.</span>
+              <span className="hidden font-bold sm:inline-block text-black">Eve Jirapornsirikul</span>
             </Link>
           </div>
           <nav className="flex items-center space-x-6 text-sm font-medium">
@@ -81,7 +81,7 @@ export default function Portfolio() {
               <Link href="#experience">View My Work</Link>
             </Button>
             <Button variant="outline" className="border-2 border-black text-black hover:bg-yellow-50" asChild>
-              <Link href="/resume.pdf" target="_blank">
+              <Link href="/eve-CV_internship.pdf" target="_blank">
                 Download Resume
               </Link>
             </Button>
@@ -572,7 +572,7 @@ export default function Portfolio() {
           <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
             <Code className="h-6 w-6 text-yellow-500" />
             <p className="text-center text-sm leading-loose text-gray-700 md:text-left">
-              © 2024 Saowaluk J.
+              © 2024 Eve J.
             </p>
           </div>
           <div className="flex gap-4">
