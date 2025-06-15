@@ -242,27 +242,24 @@ export default function Portfolio() {
                 <div className="h-48 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg flex items-center justify-center mb-4">
                   <div className="text-center">
                     <Smartphone className="h-12 w-12 text-blue-600 mx-auto mb-2" />
-                    <div className="text-2xl font-bold text-gray-800">Task</div>
-                    <div className="text-lg text-gray-600">Tracker Pro</div>
+                    <div className="text-2xl font-bold text-gray-800">Remote Meet</div>
+                    <div className="text-lg text-gray-600">Meeting Scheduler</div>
                   </div>
                 </div>
-                <CardTitle className="text-black">Task Tracker Pro</CardTitle>
+                <CardTitle className="text-black">Remote Meet</CardTitle>
                 <CardDescription className="text-gray-600">
-                  Full-stack task management application with real-time collaboration and team features
+                  RemoteMeet helps remote teams or friends in different countries quickly find overlapping time windows to schedule meetings or calls.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-700 mb-4">
-                  A comprehensive task management platform built with React and Node.js. Features include real-time
-                  updates, team collaboration, project timelines, file attachments, and advanced filtering. Supports
-                  multiple project workflows and integrates with popular productivity tools.
+                  A web application designed to help people in different timezones schedule meetings more easily. Built with Next.js, React, and Tailwind CSS, it provides a modern and responsive interface for coordinating across the globe.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge className="bg-yellow-400 text-black border border-black">Next.js</Badge>
+                  <Badge className="bg-yellow-400 text-black border border-black">Tailwind CSS</Badge>
+                  <Badge className="bg-yellow-400 text-black border border-black">TypeScript</Badge>
                   <Badge className="bg-yellow-400 text-black border border-black">React</Badge>
-                  <Badge className="bg-yellow-400 text-black border border-black">Node.js</Badge>
-                  <Badge className="bg-yellow-400 text-black border border-black">Socket.io</Badge>
-                  <Badge className="bg-yellow-400 text-black border border-black">MongoDB</Badge>
-                  <Badge className="bg-yellow-400 text-black border border-black">Redux</Badge>
                 </div>
                 <div className="flex gap-2">
                   <Button
@@ -271,7 +268,7 @@ export default function Portfolio() {
                     className="border-2 border-black text-black hover:bg-yellow-50"
                     asChild
                   >
-                    <Link href="https://github.com/ifferrie" target="_blank">
+                    <Link href="https://github.com/ifferrie/remote-meet" target="_blank">
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </Link>
@@ -281,7 +278,7 @@ export default function Portfolio() {
                     className="bg-yellow-400 hover:bg-yellow-500 text-black border-2 border-black"
                     asChild
                   >
-                    <Link href="#" target="_blank">
+                    <Link href="https://ifferrie.github.io/remote-meet/" target="_blank">
                       <Globe className="h-4 w-4 mr-2" />
                       Live Demo
                     </Link>
@@ -295,27 +292,24 @@ export default function Portfolio() {
                 <div className="h-48 bg-gradient-to-br from-green-100 to-green-200 rounded-lg flex items-center justify-center mb-4">
                   <div className="text-center">
                     <Code className="h-12 w-12 text-green-600 mx-auto mb-2" />
-                    <div className="text-2xl font-bold text-gray-800">Smart</div>
-                    <div className="text-lg text-gray-600">Analytics</div>
+                    <div className="text-2xl font-bold text-gray-800">Explain This Code</div>
+                    <div className="text-lg text-gray-600">AI Code Explanation</div>
                   </div>
                 </div>
-                <CardTitle className="text-black">Smart Analytics Dashboard</CardTitle>
+                <CardTitle className="text-black">Explain This Code</CardTitle>
                 <CardDescription className="text-gray-600">
-                  Real-time data visualization platform with AI-powered insights and predictive analytics
+                  AI-powered code explanation tool that helps developers understand complex code snippets
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-700 mb-4">
-                  An intelligent analytics dashboard that processes large datasets and provides actionable insights
-                  through interactive visualizations. Features include automated report generation, anomaly detection,
-                  trend analysis, and customizable KPI tracking for business intelligence.
+                  A web application that allows users to paste code snippets, select a programming language, and receive AI-generated explanations of the code using OpenAI's API. Built with Next.js, React, and Tailwind CSS.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge className="bg-yellow-400 text-black border border-black">Python</Badge>
                   <Badge className="bg-yellow-400 text-black border border-black">Next.js</Badge>
-                  <Badge className="bg-yellow-400 text-black border border-black">D3.js</Badge>
-                  <Badge className="bg-yellow-400 text-black border border-black">PostgreSQL</Badge>
-                  <Badge className="bg-yellow-400 text-black border border-black">TensorFlow</Badge>
+                  <Badge className="bg-yellow-400 text-black border border-black">React</Badge>
+                  <Badge className="bg-yellow-400 text-black border border-black">TypeScript</Badge>
+                  <Badge className="bg-yellow-400 text-black border border-black">Tailwind CSS</Badge>
                 </div>
                 <div className="flex gap-2">
                   <Button
@@ -324,7 +318,7 @@ export default function Portfolio() {
                     className="border-2 border-black text-black hover:bg-yellow-50"
                     asChild
                   >
-                    <Link href="https://github.com/ifferrie" target="_blank">
+                    <Link href="https://github.com/ifferrie/explain-this-code" target="_blank">
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </Link>
@@ -334,9 +328,9 @@ export default function Portfolio() {
                     className="bg-yellow-400 hover:bg-yellow-500 text-black border-2 border-black"
                     asChild
                   >
-                    <Link href="#" target="_blank">
+                    <Link href="/explain-this-code.mp4" target="_blank">
                       <Globe className="h-4 w-4 mr-2" />
-                      Live Demo
+                      Video Demo
                     </Link>
                   </Button>
                 </div>
