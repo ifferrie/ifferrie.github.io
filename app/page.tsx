@@ -192,11 +192,11 @@ export default function Portfolio() {
             <Card className="border-2 border-yellow-400 bg-white hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="h-48 bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center">
-                    <Database className="h-12 w-12 text-yellow-600 mx-auto mb-2" />
-                    <div className="text-2xl font-bold text-gray-800">Tech Salary</div>
-                    <div className="text-lg text-gray-600">Estimator</div>
-                  </div>
+                <img
+                    src="/salary_es.png"
+                    alt="Salary Estimator"
+                    className="h-48 object-cover shadow-lg"
+                  />
                 </div>
                 <CardTitle className="text-black">Tech Salary Estimator</CardTitle>
                 <CardDescription className="text-gray-600">
@@ -245,11 +245,11 @@ export default function Portfolio() {
             <Card className="border-2 border-yellow-400 bg-white hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="h-48 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center">
-                    <Smartphone className="h-12 w-12 text-blue-600 mx-auto mb-2" />
-                    <div className="text-2xl font-bold text-gray-800">Remote Meet</div>
-                    <div className="text-lg text-gray-600">Meeting Scheduler</div>
-                  </div>
+                  <img
+                    src="/remote_meet.png"
+                    alt="Remote Meet"
+                    className="h-48 object-cover shadow-lg"
+                  />
                 </div>
                 <CardTitle className="text-black">Remote Meet</CardTitle>
                 <CardDescription className="text-gray-600">
@@ -295,11 +295,11 @@ export default function Portfolio() {
             <Card className="border-2 border-yellow-400 bg-white hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="h-48 bg-gradient-to-br from-green-100 to-green-200 rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center">
-                    <Code className="h-12 w-12 text-green-600 mx-auto mb-2" />
-                    <div className="text-2xl font-bold text-gray-800">Explain This Code</div>
-                    <div className="text-lg text-gray-600">AI Code Explanation</div>
-                  </div>
+                <img
+                    src="/explain_code.png"
+                    alt="Explain This Code"
+                    className="h-48 object-cover shadow-lg"
+                  />
                 </div>
                 <CardTitle className="text-black">Explain This Code</CardTitle>
                 <CardDescription className="text-gray-600">
@@ -335,7 +335,7 @@ export default function Portfolio() {
                   >
                     <Link href="/explain_this_code_demo.mp4" target="_blank">
                       <Globe className="h-4 w-4 mr-2" />
-                      Video Demo
+                      Demo Video
                     </Link>
                   </Button>
                 </div>
