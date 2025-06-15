@@ -351,6 +351,12 @@ export default function Portfolio() {
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <div>
+                    <CardTitle className="text-black">IT College Support Services Student Assistant</CardTitle>
+                    <CardDescription className="text-gray-600">California State University, Fullerton • May 2025 - Present</CardDescription>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between">
+                  <div>
                     <CardTitle className="text-black">Senior Software Engineer & Team Leader</CardTitle>
                     <CardDescription className="text-gray-600">ScreenCloud • Sep 2019 - Jan 2025</CardDescription>
                   </div>
