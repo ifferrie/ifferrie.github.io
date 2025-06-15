@@ -111,6 +111,11 @@ export default function Portfolio() {
         {/* About Section */}
         <section id="about" className="container space-y-6 py-8 md:py-12 lg:py-24 bg-yellow-50">
           <div className="mx-auto flex max-w-[980px] flex-col items-center space-y-4 text-center">
+            <img
+              src="/me.jpg"
+              alt="Your Name"
+              className="w-32 h-32 rounded-full object-cover border-4 border-yellow-400 shadow-lg mb-2"
+            />
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-6xl text-black border-b-4 border-yellow-400 pb-2">
               About Me
             </h2>
